@@ -14,7 +14,7 @@ html {
     font-weight: 400;
 
     /*BACKGROUND:*/
-    background: url('/images/sky.svg');
+    background: url('./images/sky.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -64,7 +64,8 @@ a {
 
     display: block; /*each link takes a whole line*/
     margin: 10px;
-    padding: 10px; 
+    padding: 10px;
+    transition: .2s;
 }
 
 a:hover {
