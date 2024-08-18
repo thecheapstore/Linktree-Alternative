@@ -2,6 +2,7 @@
 
 :root {
     --textColor: white;
+    --invertColor: black;
     --font: 'Karla', sans-serif;
 }
 
@@ -64,4 +65,10 @@ a {
     display: block; /*each link takes a whole line*/
     margin: 10px;
     padding: 10px; 
+}
+
+a:hover {
+    background-color: var(--textColor);
+    color: var(--invertColor);
+    transition: .2s;
 }
